@@ -1,0 +1,20 @@
+.navbar-content{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.navbar-content a{
+    color: white;
+    text-decoration: none;
+}
