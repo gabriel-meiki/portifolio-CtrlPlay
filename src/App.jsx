@@ -1,14 +1,15 @@
-import Navbar from './components/Navbar/Navbar.jsx'
-import Apresentacao from './components/Apresentacao/Apresentacao.jsx'
-import SobreMim from './components/SobreMim/SobreMim.jsx'
+import './App.css'
+import ApresentacaoRedes from './componentes/ApresentacaoRedes/ApresentacaoRedes'
+import Navbar from './componentes/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <Apresentacao />
-      <SobreMim />
+      <div>
+        <Navbar />
+        <ApresentacaoRedes />
+      </div>
     </>
   )
 }
